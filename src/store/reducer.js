@@ -2,10 +2,12 @@ import { TODO_INPUT, ADD_ITEM, DEL_ITEM } from './actionTypeName'
 const todoListData = {
     inputValue: '请输入待办事件',
     list: [
-        'Racing car sprays burning fuel into crowd.',
-        'Japanese princess to wed commoner.'
+        '测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案.',
+        '测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案'
     ]
 }
+
+
 export default (state = todoListData, actions) => {
 
     if (actions.type == TODO_INPUT) {
